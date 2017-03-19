@@ -68,4 +68,4 @@ sub getDataFromAPI {
      return $json_data;
        }
 
-my $json_data = getDataFromAP!();
+my $json_data = getDataFromAPI();

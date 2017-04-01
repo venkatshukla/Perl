@@ -60,7 +60,7 @@ sub getDataFromAPI {
 		if($response_raw->code()!=200)
                                         {
                                                 print "Your ERROR Message!";
-                                         }
+                                         } 
 
      my $response = $response_raw->decoded_content;      
      my $json = new JSON;
